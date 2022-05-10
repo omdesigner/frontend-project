@@ -1,0 +1,1758 @@
+*{margin:0px;padding:0px;font-family:Roboto-Reg;}
+body{font-family:Roboto-Reg;}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;-moz-appearance:none;appearance:none;margin:0}
+
+@font-face{
+ font-family: 'Roboto-Reg';
+  src: url('../fonts/Roboto-Regular.ttf');
+  src: local('☺'),     
+       url('../fonts/Roboto-Regular.ttf') format('truetype'), 
+}
+
+@font-face{
+ font-family: 'Roboto-Med';
+  src: url('../fonts/Roboto-Medium.ttf');
+  src: local('☺'), 
+       url('../fonts/Roboto-Medium.ttf') format('truetype'), 
+}
+@font-face{
+ font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto-Bold.ttf');
+  src: local('☺'), 
+       url('../fonts/Roboto-Bold.ttf') format('truetype'), 
+}
+
+@font-face{
+    font-family: 'Roboto-Light';
+     src: url('../fonts/Roboto-Light.ttf');
+     src: local('☺'), 
+          url('../fonts/Roboto-Light.ttf') format('truetype'),   
+}
+
+header{float: left;width: 100%;padding: 0px 15px;background: #f8f8f8;position: fixed;top: 0;left: 0;z-index: 1;box-shadow: 0 0px 8px #ddd; }
+.representlogo{float: left;margin-right: 35px;padding: 9px 0px;}
+.representlogo img{width: 100%;}
+.dapromenuUl{float: left;list-style-type: none;margin-bottom: 0px;padding-top: 28px;}
+.dapromenuUl>li{float: left;padding: 0px 15px;}
+.dapromenuUl>li>a{float: left;font-size: 16px;color: #666666;text-transform: uppercase;text-decoration: none;padding-bottom: 24px;}
+.dapromenuUl>li>a:hover{color: #fba423;border-bottom: 4px solid #fba423;}
+.dapromenuUl>li>a.active{color: #fba423;border-bottom: 4px solid #fba423;}
+.daprologo{float: right;padding: 20px 0px;display: none;}
+.daprologo img{width: 100%;}
+.showdaprologo{display: block;}
+.hamburger{float: right;padding: 16px 0px;display: none;}
+.hamburger img{width: 30px;}
+
+
+
+footer{float: left;width: 100%;background: #0f294e;padding-top: 40px;}
+.fooleft1{float: left;width: 100%;}
+.fooleft1 img{margin-bottom: 20px;float: left;}
+.fooleft1>p{float: left;width: 100%;color: #e1e1e1;font-size: 14px;}
+.footleft2{float: left;width: 100%;}
+.foottitle{float: left;width: 100%;color: #ffffff;font-size: 22px;text-transform: uppercase;font-family: 'Roboto-Bold';margin-top: 0;}
+.footleft2 ul{float: left;width: 100%;list-style-type: none;padding-left: 15px;padding-top: 15px;}
+.footleft2 ul li{float: left;width: 100%;list-style-image: url('../images/litype.png');padding-left: 5px;margin: 6px 0px;}
+.footleft2 ul li a{float: left;width: 100%;font-size: 14px;color: #e2e2e2;text-transform: uppercase;text-decoration: none;}
+.footleft2 ul li:hover{list-style-image: url('../images/litype2.png');}
+.footleft2 ul li:hover a{color: #fba423;}
+.footleft3{width: 100%;float: left;}
+.footleft3 ul{float: left;width: 100%;list-style-type: none;padding-top: 10px;}
+.footleft3 ul li{float: left;width: 100%;margin: 6px 0px;}
+.footleft3 ul li a{float: left;width: 100%;font-size: 14px;color: #e2e2e2;text-transform: uppercase;text-decoration: none;}
+.footleft3 ul li a img{margin-right: 10px;}
+.footleft3 ul li:hover a{color: #fba423;}
+.footleft4{float: left;width: 100%;}
+.footleft4>p{float: left;width: 100%;font-size: 16px;font-family: 'Roboto-Med';color: #e2e2e2;margin-top: 10px;}
+.footleft4 ul{float: left;width: 100%;list-style-type: none; }
+.footleft4 ul li{float: left;width: 100%;margin: 6px 0px;}
+.footleft4 ul li a{float: left;width: 100%;font-size: 14px;color: #e2e2e2;text-decoration: none;}
+.footleft4 ul li a img{margin-right: 10px;float: left;}
+.footleft4 ul li:hover a{color: #fba423;}
+.footleft4 ul li a span{float: left;}
+.lastfoot{float: left;width: 100%;background: #0c203b;padding: 15px 0px;margin-top: 20px;}
+.lastfoot p{float: left;width: 100%;text-align: center;color: #ffffff;margin-bottom: 0;}
+
+/****************************************************** index css start *********************************************/
+.topbanners{
+    width: 100%;
+    float: left;
+    margin-top: 78px;
+}
+.topbanners .carousel-control.left{
+    background-image: none;
+}
+.topbanners .carousel-control.right{
+    background-image: none;  
+}
+.topbanners .carousel-control:focus, .carousel-control:hover{
+    opacity: inherit;
+}
+.topbanners .carousel-control{
+    opacity: inherit; 
+    width: 49px;
+    top: 43%;
+}
+.arrowstyle img:hover{
+    background: #0f284c;
+}
+.topbanners .item img{
+    width: 100%;
+}
+.who_we_are{
+width: 100%;
+float: left;
+background: #f8f8f8;
+padding-top: 45px; 
+padding-bottom: 45px;
+}
+
+.pagetitle{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.pagetitle h2{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-family: 'Roboto-Bold';
+    color: #333333;
+    text-transform: uppercase;
+
+}
+.borderone{
+ width: 181px;
+ height: 2px;
+ margin: 0 auto;
+ background: #99a4b5;   
+}
+.bordertwo{
+    width:50px;
+    height: 5px;
+    margin: 0 auto;
+    background: #112d55;   
+    margin-top: -4px;   
+}
+.text_whoweare{
+    width: 100%;
+    float: left;
+}
+.text_whoweare p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto-Reg';
+    color: #666666;
+}
+.all_btn{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.all_btn .btn{
+    width: 150px;
+    height: 40px;
+    background:none;
+    border: 1px solid #f0880e;
+    margin-top: 15px;
+    color: #f0880e;
+    text-transform: uppercase;
+    font-family: 'Roboto-Med';
+}
+
+.our_product{
+    width: 100%;
+    float: left;
+    padding-bottom: 60px; 
+    padding-top: 60px; 
+}
+.product_info{
+    width: 100%;
+    float: left;
+    margin-top: 45px;
+}
+.dapro_product{
+    width: 100%;
+    float: left;
+    border: 1px solid #878686;
+    position: relative;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.product_images{
+    width: 100%;
+    float: left;
+ 
+}
+.product_images img{
+    width: 100%;
+    border-radius: 3px;
+}
+.details_info{
+    width: 100%;
+    float: left;
+    background: #2a2a2a;
+    padding: 10px 15px;
+}
+.details_padd{
+    padding: 10px 10px;
+}
+.details_info p{
+    color: #ff9600;
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 5px;
+}
+.details_info span{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto-Bold';   
+}
+.product_info2{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.product_info{
+    margin-top: 30px;
+}
+/****************************************************** index css end *********************************************/
+
+
+
+/****************************************************** about us css start *********************************************/
+.daprodetils_banner{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 78px;
+}
+.detila_banner{
+    width: 100%;
+    float: left;
+}
+.detila_banner img{
+    width: 100%;
+}
+.bannerD_text{
+width: 100%;
+float: left;
+text-align: center;
+position: absolute;
+top: 0;
+left: 0;
+}
+.maintitle{
+    width: 100%;
+    float: left;
+    text-align: center;   
+}
+.bannerD_text h2{
+color: #fff;
+font-size: 36px;
+font-family: 'Roboto-Bold';  
+padding-top: 100px;
+margin-top: 0px;
+text-transform: uppercase;
+}
+.mainborder1{
+    width: 183px;
+    height: 1px;
+    background: #fff;
+    margin: 0 auto;
+}
+.mainborder2{
+    width: 50px;
+    height: 5px;
+    background: #fcb253;
+    margin: -3px auto;
+}
+.bredcem{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 18px;
+}
+.bredcem a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto-Reg';
+}
+.bredcem a span{
+    color: #ecb361;
+}
+.details_aboutus{
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.deatilseasy{
+    width: 100%;
+    float: left;
+}
+.deatilseasy p{
+    color: #434343;
+    font-size: 14px;
+    font-family: 'Roboto-Reg';
+}
+.inhouse_testing{
+    width: 100%;
+    float: left;
+    background: #f8f8f8;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.inhouse_title{
+    width: 100%;
+    float: left;
+}
+.inhouse_title h2{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Roboto-Bold';
+}
+.list_toper{
+    width: 100%;
+    float: left;
+    margin-top: 45px;
+}
+.list_house{
+    width: 100%;
+    float: left;
+}
+.list_house ul{
+    width: 100%;
+    float: left;
+    list-style-type: none;
+}
+.list_house ul li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.list_house ul li span{
+    float: left;
+    margin-right: 15px;
+}
+.list_house ul li p {
+    font-size: 16px;
+    font-family: 'Roboto-Reg';
+    color: #434343;
+    margin-bottom: 0px;
+
+}
+.lastlist_details{
+    width: 100%;
+    float: left;
+}
+.lastlist_details p{
+    color: #434343;
+    font-size: 14px;
+    font-family: 'Roboto-Reg';
+}
+
+/****************************************************** about us css end *********************************************/
+
+
+
+/****************************************************** contact us css start *********************************************/
+.contact_form{
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.form_design{
+  width: 70%;
+  float: left; 
+  background: #f5f5f5; 
+  padding: 59px 30px;
+  height: 472px;
+}
+.input_style{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.input_style input{
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #e2e2e2;
+    color: #727272;
+}
+.input_style .textareas{
+    margin-top: 10px;
+}
+.rightside{
+    text-align: right;
+}
+.address_design{
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.addressimage{
+    width: 100%;
+    float: left;
+}
+.addressimage img{
+    width: 100%;
+    height: 472px;
+}
+.address_details{
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+}
+.address{
+    width: 100%;
+    float: left;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 60px 20px;
+    height: 410px;
+    text-align: center;
+}
+.addresstitle h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Roboto-Bold';
+}
+.phone_number{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.phone_number img{
+    margin-bottom: 15px;
+}
+.phone_number p{
+    margin-bottom:5px;
+    font-size: 16px;
+    color: #112d55;  
+    font-family: 'Roboto-Bold';  
+}
+.emaildesign{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.emaildesign a{
+width: 100%;
+float: left;
+margin-top: 15px;
+font-size: 16px;
+text-decoration: none;
+color: #112d55;  
+font-family: 'Roboto-Bold'; 
+}
+/****************************************************** contact us css end *********************************************/
+
+
+/****************************************************** customization us css start ******************************************/
+.product_quality{
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.custitle{
+    text-align: left;
+}
+.custitle .borderone{
+    margin: inherit;
+}
+.custitle .bordertwo{
+    margin: inherit;
+    margin-top: -4px;
+}
+.quality_box{
+    width: 100%;
+    float: left;
+    border: 1px solid #afafaf;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+boximages{
+    width: 100%;
+    float: left;
+}
+.boximages{
+    width: 100%;
+    float: left;
+    border-bottom:1px solid #afafaf; 
+}
+.boximages img{
+    width: 100%;
+    border-radius: 3px;
+}
+.topmargin{
+    margin-top: 30px;
+}
+.text_qulity{
+    width: 100%;
+    float: left;
+}
+.text_qulity p{
+    margin-bottom: 0;
+    padding: 10px;
+    color: #313131;
+    font-size: 14px;
+    text-align: center;
+}
+.topmargin{
+    margin-top:60px;
+}
+.leatherbody{
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+}
+/****************************************************** customization us css end *******************************************/
+
+
+/*********************************************************************** Start Product ********************************/
+
+/**************Start Checkbox***************/
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+    
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+  font-weight: normal;
+    color: #676767;
+    font-size: 14px;
+    margin-bottom: 0;
+    
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before{background: #e5e5e5!important;}
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 15px; height: 15px;  
+  border-radius: 2px; 
+    background: #f0880e;
+    
+    
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 4px; left: 3px;
+  font-size: 12px;
+  line-height: 0.8;
+  color: #ffffff;
+  transition: all .2s;
+    
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+    
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+    
+    
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+    
+    
+    
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+    
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+    
+    
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  //border: 2px dotted blue;
+    background: #f0880e;
+    
+}
+
+/* hover style just for information */
+/*label:hover:before {
+  border: 2px solid #4778d9!important;
+}*/
+
+/*****************End Checkbox*******************/
+
+.footwareProSec{float: left;width: 100%;padding-top: 50px;padding-bottom: 30px;}
+.wareFilterMain{float: left;width: 100%;box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);border-radius: 3px;padding:0px 8px 10px;}
+.wereClas{float: left;width: 100%;padding: 10px;border-bottom: 1px solid #e2e2e2;padding: 10px 10px 15px;margin-top: 8px;}
+.wereClas:last-child{border-bottom: 0;}
+.filterttl{width: 100%;float: left;color: #010101;font-family: 'Roboto-Med';text-transform: uppercase;margin: 0;}
+.ckeckPart{float: left;width: 100%;margin-top: 15px;}
+.ckeckPart p{margin-bottom: 5px;}
+.butnBor{float: left;width: 100%;border: 1px solid #8c8c8c;width: 17px;height: 17px;border-radius: 50%;padding: 2px;margin-right: 10px;}
+.butnBor>span{width: 11px;height: 11px;float: left;border-radius: 50%;}
+.blackbtn{background: #000000;}
+.brownbtn{background: #7a4100;}
+.lightbrownbtn{background: #a25600;}
+.promargin{margin-top: 30px}
+/********************************************************************************* End Product ********************************/
+
+
+
+/************************************************************** Product details start ********************************/
+.product-detail {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.product-display {
+    float: left;
+    width: 100%;
+}
+
+.product-title {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Roboto-Med';
+    padding: 10px 0px;
+    text-align: center;
+    background: #e5e5e5;
+    color: #112d55;
+    margin-bottom: 0px;
+}
+
+.product-img {
+    float: left;
+    width: 100%;
+    border: 2px solid #e5e5e5;
+    height: 270px;
+}
+
+.product-thumb {
+    float: left;
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e5e5e5;
+    border-top: 0px;
+}
+
+.thumb-list {
+    float: left;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.thumb-Item {
+    float: left;
+    width: 75px;
+    height: 75px;
+    list-style-type: none;
+    border: 1px solid #e5e5e5;
+    margin-right: 10px;
+}
+
+.thumb-Item:last-child {
+    margin-right: 0px;
+}
+
+.thumb-Item a,
+.thumb-Item a img {
+    float: left;
+    width: 100%;
+    height: 70px;
+}
+
+.product-detail-info {
+    float: left;
+    width: 100%;
+}
+
+.product-detail-title {
+    float: left;
+    min-width: 150px;
+    font-size: 26px;
+    color: #333333;
+    margin-top: 0px;
+    font-family: 'Roboto-Med';
+}
+
+.under-line {
+    content: "";
+    float: left;
+    width: 100%;
+    max-width: 150px;
+    height: 1px;
+    background: #112d55;
+    margin-top: 15px;
+}
+
+.under-line::before {
+    content: "";
+    float: left;
+    width: 40%;
+    height: 6px;
+    margin-top: -3px;
+    background: #112d55;
+}
+
+.product-info {
+    float: left;
+    width: 100%;
+}
+
+.info-list {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    color: #333333;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.info-list li {
+    list-style-image: url(../images/list-dot.png);
+    margin: 12px 0px;
+}
+
+.product-feedback {
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.product-rating {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.rating-list {
+    float: left;
+    width: 100%;
+}
+
+.rating-list li {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+}
+
+.rating-list li:last-child {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.rating-item {
+    float: left;
+    border-right: 1px solid #e5e5e5;
+}
+
+.rating-list li span {
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    padding: 8px 10px;
+    color: #000000;
+}
+.prodatilsform{
+    width: 100%;
+    float: left;
+    background: #f5f5f5;
+    padding: 40px 30px;
+}
+.detailsinputs{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.detailsinputs input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e2e2e2;
+}
+/**************************************************************  Product details end ********************************/
+
+
+/**************************************************************  warranty css  start ********************************/
+.title_warranty h2{
+    margin-top: 0px;
+    color: #000000;
+    font-family: 'Roboto-Bold';
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.list_house ul li p {
+    float: right;
+    width: 94%;
+}
+.list_housetwo{
+    margin-top: 30px;
+}
+.list_topertwo{
+    margin-top: 20px;
+}
+.warrentydetils{
+    margin-top: 15px;
+}
+/**************************************************************  warranty css  end ********************************/
+
+/**************************************************************  QUALITY css  start ********************************/
+
+.eco_friendly{
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.eco_friendlytext{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.eco_friendlytext p{
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Roboto-Reg';
+    text-align: center;
+}
+.latherandceart{
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+.latherpart{
+    width: 100%;
+    float: left;
+    background: #f8f8f8;
+    padding: 20px;
+}
+.lather{
+    font-size: 20px !important;
+}
+.details_la{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.details_la h2{
+    font-size: 14px;
+    color: #112d55;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+}
+.details_la p{
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto-Reg';
+}
+.lathertop{
+    margin-top: 15px;
+}
+.ceimages{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+}
+.ceimages p{
+    font-size: 12px;
+}
+.ceimages img{
+    margin-bottom: 15px;
+}
+.ceimages p{
+    font-size: 12px;
+    font-family: 'Roboto-Reg';
+    color: #112d55;
+    margin-bottom: 5px;
+}
+.cer_detils{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.cer_detils p{
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto-Reg';
+}
+.s1_details{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.s1_details ul{
+    width: 100%;
+    float: left;
+    list-style-type: none;
+}
+.s1_details ul li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.s1_details ul li span{
+    width: 3%;
+    float: left;
+    color: #000000;
+    font-family: 'Roboto-Reg';
+}
+.s1_details ul li p{
+    float: left;
+    width: 95%;
+    padding-left: 20px;
+    margin-bottom: 0;
+    color: #000000;
+    font-family: 'Roboto-Reg';
+}
+.sizepart{
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+.details_size{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.details_size p{
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto-Reg';
+}
+.sizeimg{
+    width: 100%;
+    float: left;
+}
+.sizeimg p{
+    width: 80%;
+    float: left;
+}
+.qulitytable{
+    width: 100%;
+    float: left;
+}
+.qulitytable>thead:first-child>tr:first-child>th{
+    background: #112d55;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+.qulitytable>tbody>tr>.tabletitle{
+color: #000;
+text-align: left;
+}
+.qulitytable>tbody>tr>td{
+    color: #5a5a5a;
+    text-align: center;
+    }
+.tablestyle{
+    width: 100%;
+    float: left;
+}
+.iconspart{
+width: 100%;
+float: left;
+margin-bottom: 60px;
+}
+.icondeatils{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.icontext{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.imageicon{
+    width:20%;
+    float: left;
+}
+
+.icontextdetils{
+    width: 80%;
+    float: left;
+}
+.icontextdetils p{
+    padding-left:20px;
+    padding-top: 25px;
+    font-size: 18px;
+    color: #333333;
+    font-family: 'Roboto-Bold';
+    float: left;
+}
+.imageicon img{
+width: 100%;
+}
+.xtrialsoles{
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+.detil_sxtrialsoles{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.teglines{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.teglines p{
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Roboto-Reg';
+}
+.souls_box{
+    width: 100%;
+    float: left;
+    border: 1px solid #8e8e8e;
+}
+.title_souls{
+    width: 100%;
+    float: left;
+    background: #112d55;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.title_souls h2{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto-Reg';
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+.soulimg{
+    width: 100%;
+    float: left;
+}
+.soulimg img{
+    width: 100%;
+}
+.soual_rating{
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.titlerat{
+    width: 100%;
+    float: left;
+}
+.titlerat h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: 'Roboto-Bold';
+}
+.metierls_heat{
+    width: 100%;
+    float: left;
+}
+.metierls_heat{
+width: 100%;
+float: left;
+margin-top: 20px;
+}
+.metierls_heat p{
+    color: #112d55;
+    font-size: 16px;
+    font-family: 'Roboto-Reg';
+}
+.material{
+    width: 47%;
+    float: left;
+}
+.metierls_heat p span{
+    color: #000000;
+}
+.ratings_type{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.ratings_type ul{
+    width: 50%;
+    float: left;
+    list-style-type: none;
+}
+.ratings_type ul li{
+    width: 100%;
+    float: left;
+}
+.ratings_type ul li p{
+    color: #112d55;
+    font-size: 16px;
+    font-family: 'Roboto-Reg';
+    width: 50%;
+    float: left;
+}
+.insolespart{
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+.inshoul{
+    width: 100%;
+    float:left;
+    margin-top: 40px;
+}
+.daproshoule{
+    width: 100%;
+    float: left;
+}
+.imgshoul{
+    width: 100%;
+    float:left;
+}
+.imgshoul img{
+    width: 100%;
+}
+.textinshoul{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.textinshoul p{
+    float: left;
+    width: 100%;
+}
+.textinshoul img{
+    float: left;
+    padding-top: 7px;
+}
+.textinshoul span{
+    padding-left: 5px;
+    font-family: 'Roboto-Reg';
+    padding-left: 10px;
+    color: #112d55;
+    font-size: 16px;
+    width: 95%;
+    float: left;
+}
+
+.shoultable{
+    width: 100%;
+    float: left;
+}
+.shoulteb_detils{
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+}
+.shoultable .table-bordered>thead>tr>th{
+    background: #112d55;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto-Reg';
+}
+.shoultable .table-bordered>tbody>tr>td img{
+    margin-right: 5px;
+}
+.shoultable .table-bordered>tbody>tr>td{
+   color: #000; 
+}
+.rangepart{
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+.valuerange{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.valuerange img{
+    width: 100%;
+}
+.toprange{
+    margin-top: 60px;
+}
+.boldblack{
+    font-size: 18px;
+    font-family: 'Roboto-Med';
+}
+.boldtext{
+    font-family: 'Roboto-Med'; 
+}
+
+/**************************************************************  QUALITY css  end ********************************/
+/**************************************************************  globle css  start ********************************/
+.globlemap{
+    width: 100%;
+    float: left;   
+}
+.mapgloble{
+    width: 100%;
+    float: left;
+}
+.mapgloble img{
+    width: 100%;
+}
+/**************************************************************  globle css  end ********************************/
+@media screen and (min-width:992px) and (max-width:1199px){
+    .representlogo{width: 125px;margin-right: 15px;}
+    .dapromenuUl{padding-top: 25px;}
+    .dapromenuUl>li{padding: 0px 10px;}
+    .dapromenuUl>li>a{padding-bottom: 15px;font-size: 14px;}
+    .daprologo {  padding: 15px 0px; width: 75px;}
+    .footleft4 ul li a img{margin-right: 8px;}
+
+    .topbanners{
+        margin-top: 64px;
+    }
+    .daprodetils_banner{
+        margin-top: 64px;
+    }
+/****************************************************** about us css start *********************************************/
+    .detila_banner img{
+        height: 236px;
+    }
+    .bannerD_text h2{
+        padding-top: 70px;
+    }
+/****************************************************** about us css end *********************************************/
+
+
+
+
+/****************************************************** contact us css start *********************************************/
+.address_details{
+    top: 10px;
+    padding: 20px;
+}
+.phone_number p{
+    font-size: 14px;
+}
+.addresstitle h2{
+    font-size: 14px; 
+}
+.emaildesign a{
+    font-size: 14px;
+}
+/****************************************************** contact us css end *********************************************/
+
+/****************************************************** prodact details  css start ***********************************/
+.thumb-Item{
+    width: 58px;
+    height: 76px;
+}
+.prodatilsform{
+    padding: 30px 30px;
+}
+.product-feedback{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/****************************************************** prodact details  css start ************************************/
+
+/**************************************************************  warranty css  start ********************************/
+.list_house ul li p {
+    width: 93%;
+}
+/**************************************************************  warranty css  end ********************************/
+
+
+/**************************************************************  QUALITY css  start ********************************/
+.material {
+    width: 100%;
+}
+.icontextdetils p {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+/**************************************************************  QUALITY css  end ********************************/
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    header{ box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);}
+    .daprologo{display: none;}
+    .dapromenuUl{display: none;padding-top: 15px;width: 100%;margin-bottom: 10px;} 
+    .dapromenuUl>li{padding: 5px 0px;width: 100%;}
+    .dapromenuUl>li>a{ padding-bottom: 0px;width: 100%;}
+    .dapromenuUl>li>a:hover{ border-bottom: 2px solid #fba423;}
+    .dapromenuUl>li>a.active{ border-bottom: 2px solid #fba423;}
+    .representlogo { width: 120px;}
+    .hamburger{display: block;}
+    
+    
+    .footleft2{margin-bottom: 30px;}
+
+/****************************************************** index css start *********************************************/
+    .topbanners .carousel-control{
+        width: 38px;
+    }
+    .arrowstyle img {
+        width: 38px;
+    }
+    .who_we_are{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .our_product{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .topspaces{
+        margin-bottom: 30px;
+    }
+    .product_info2{
+        float: none;
+    }
+    .topbanners{
+        margin-top: 62px;
+    }
+    .daprodetils_banner{
+        margin-top: 62px;
+    }
+/****************************************************** index css end *********************************************/
+    
+/****************************************************** about us css start *********************************************/
+.detila_banner img{
+    height: 200px;
+}
+.bannerD_text h2{
+    padding-top: 50px;
+    font-size: 30px;
+}
+.list_house ul li p {
+    float: right;
+    width: 90%;
+}
+.list_house ul li p {
+    font-size: 14px;
+}
+.details_aboutus{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.inhouse_testing{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.inhouse_title h2{
+    margin-top: 0px;
+}
+.list_toper{
+    margin-top: 30px;
+}
+.list_house ul li:last-child{
+    margin-bottom: 0px;
+}
+.lastlist_details{
+    margin-top: 15px;
+}
+
+/****************************************************** about us css end *********************************************/
+
+
+
+/****************************************************** contact us css start *********************************************/
+.form_design {
+    width: 60%;
+    padding: 40px 25px;
+}
+.address_design {
+    width: 40%;
+}
+.address_details{
+    top: 10px;
+    padding: 20px;
+}
+/****************************************************** contact us css end *********************************************/
+
+
+
+/****************************************************** customization us css start *********************************************/
+.mobi_margin{
+    margin-top: 30px;
+}
+.topmargin {
+    margin-top: 30px;
+}
+.leatherbody{
+    margin-top: 30px; 
+}
+.product_quality{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/****************************************************** customization us css end *********************************************/
+
+
+/****************************************************** prodact details  css start *********************************************/
+
+.thumb-Item{
+    width: 71px;
+}
+.infolistspace{
+    margin-top: 0px;
+}
+.prodatilsform{
+    margin-top: 15px;
+}
+.product-feedback{
+    margin-top: 40px;   
+     margin-bottom: 60px;
+}
+
+/****************************************************** prodact details us css end *********************************************/
+
+/**************************************************************  warranty css  start ********************************/
+.list_housetwo {
+    margin-top: 15px;
+}
+.marginlist{
+    margin-bottom:15px;
+}
+/**************************************************************  warranty css  end ********************************/
+
+/**************************************************************  QUALITY css  start ********************************/
+.eco_friendly{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.latherpart{
+    margin-bottom: 30px;
+}
+.tablestyle{
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+.sizeimg p {
+    width: 75%;
+}
+.latherandceart{
+    margin-bottom: 40px;
+}
+.imageicon img{
+    width: 100%;
+}
+.icontext{
+    height: 60px;
+}
+.icontextdetils p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.sizepart{
+    margin-bottom: 30px;
+}
+.insolespart{
+    margin-bottom: 30px;
+}
+.icontextdetils p{
+    font-size: 16px;
+}
+.iconspart{
+    margin-bottom: 40px;
+}
+.teglines{
+    margin-bottom: 20px;
+}
+.souls_box{
+    margin-bottom: 30px;
+}
+.textinshoul span{
+    font-size: 14px;
+}
+.xtrialsoles{
+    margin-bottom: 15px;
+}
+/**************************************************************  QUALITY css  end ********************************/
+
+}
+@media screen and (min-width:318px) and (max-width:767px){ 
+    header{ box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);}
+    .daprologo{display: none;}
+    .dapromenuUl{display: none;padding-top: 15px;width: 100%;margin-bottom: 10px;} 
+    .dapromenuUl>li{padding: 5px 0px;width: 100%;}
+    .dapromenuUl>li>a{ padding-bottom: 0px;width: 100%;font-size: 14px;}
+    .dapromenuUl>li>a:hover{ border-bottom: 2px solid #fba423;}
+    .dapromenuUl>li>a.active{ border-bottom: 2px solid #fba423;}
+    .representlogo { width: 120px;}
+    .hamburger{display: block;}
+    .fooleft1{margin-bottom: 30px;}
+    .footleft2{margin-bottom: 30px;}
+    .footleft3{margin-bottom: 30px;}
+    .fooleft1 img{width: 125px;}
+/****************************************************** index css start *********************************************/
+    .arrowstyle img{display: none;}
+    .topbanners .item img{
+        width: 100%;
+        height: 175px;
+    }
+    .who_we_are{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pagetitle h2{
+        font-size: 24px;
+    }
+    .our_product{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+.topspaces{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.product_info2{
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.topbanners{
+    margin-top: 62px;
+}
+.daprodetils_banner{
+    margin-top: 62px;
+}
+/****************************************************** index css end *********************************************/
+
+
+/****************************************************** about us css start *********************************************/
+.detila_banner img{
+    height: 150px;
+}
+.bannerD_text h2{
+    font-size: 30px;
+}
+.bannerD_text h2{
+    padding-top: 35px;
+}
+.bredcem a{
+    font-size: 14px;
+}
+.list_house ul li p {
+    float: right;
+    width: 90%;
+}
+.list_house ul li p {
+    font-size: 14px;
+}
+.details_aboutus{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.inhouse_title h2{
+    margin-top: 0px;
+}
+.list_toper{
+    margin-top: 20px;
+}
+.inhouse_testing{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/****************************************************** about us css end *********************************************/
+
+
+/****************************************************** contact us css start *********************************************/
+.form_design {
+    width: 100%;
+    padding: 30px 30px;
+    height: auto;
+}
+.address_design {
+    width: 100%;
+}
+.contact_form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.input_style{
+    margin-bottom: 15px;
+}
+.rightside .btn{
+width: 100%;
+margin-top: 5px;
+}
+/****************************************************** contact us css end *********************************************/
+
+
+/****************************************************** customization us css start *********************************************/
+.mobi_margin{
+    margin-top: 30px;
+}
+.product_quality{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.topmargin {
+    margin-top: 30px;
+}
+.leatherbody{
+    margin-top: 30px;
+}
+/****************************************************** customization us css end *********************************************/
+
+
+/****************************************************** product  css end *********************************************/
+.productspace{margin-top: 30px;}
+
+/****************************************************** product  css end *********************************************/
+
+/****************************************************** product detils  css end *********************************************/
+.thumb-Item{
+    width: 58px;
+    height: 58px;
+}
+.thumb-Item a, .thumb-Item a img{
+    height: 53px;
+}
+.product-display{
+    margin-bottom: 30px;
+}
+.prodatilsform{
+    padding: 30px 20px;
+    margin-top: 15px;
+}
+.product-feedback{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info-list{
+    margin-top: 10px;
+}
+/****************************************************** product detils  css end *********************************************/
+
+/**************************************************************  warranty css  start ********************************/
+.list_housetwo {
+    margin-top: 0;
+}
+.title_warranty h2{
+    margin-bottom: 15px;
+}
+.marginlist{
+    margin-top: 15px;
+}
+/**************************************************************  warranty css  end ********************************/
+
+/**************************************************************  QUALITY css  start ********************************/
+.eco_friendly{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.latherpart{
+    margin-bottom: 30px;
+}
+.cer_detils{
+    margin-top: 15px;
+}
+.details_size{
+    margin-bottom: 30px;
+}
+.latherandceart{
+    margin-bottom: 30px;
+    
+}
+.sizepart{
+    margin-bottom: 30px;
+}
+.tablestyle{
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+.iconspart{
+    margin-bottom: 15px;
+}
+.teglines{
+    margin-bottom: 15px;
+}
+.title_souls h2 {
+    font-size: 16px
+}
+.title_souls{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.material {
+    width: 100%;
+}
+.metierls_heat p{
+    font-size: 14px;
+}
+.ratings_type ul {
+    width: 100%;
+}
+.ratings_type ul li p{
+    font-size: 14px;
+}
+.soual_rating{
+    padding: 15px;
+}
+.souls_box{
+    margin-bottom: 15px;
+}
+.textinshoul{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.textinshoul span{
+    font-size: 14px;
+}
+.shoulteb_detils{
+    margin-top: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.insolespart{
+    margin-bottom: 30px;
+}
+.toprange {
+    margin-top: 30px;
+}
+.xtrialsoles{
+    margin-bottom: 30px;  
+}
+/**************************************************************  QUALITY css  end ********************************/
+
+}
